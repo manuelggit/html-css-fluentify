@@ -11,3 +11,24 @@
 body {
   background: #0d325a;
 }
+
+.logo {
+  float: left;
+  width: 10%;
+  margin-right: 5%;
+}
+
+.primomenu {
+  float: left;
+  width: 40%;
+  margin-right: 15%;
+}
+
+.menubutton {
+  float: left;
+  width: 30%;
+}
+
+li {
+  display: inline-block;
+}
