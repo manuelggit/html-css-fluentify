@@ -109,7 +109,7 @@ h1 {
 section {
   /* background: white; */
   width: 100%;
-  height: 30vh;
+  /* height: 30vh; */
 }
 
 section::after {
@@ -130,7 +130,46 @@ h3 {
   text-align: center;
 }
 
+.granderiga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 section.section2 {
   background: white;
   height: 70vh;
+}
+
+.treblocchi {
+  background-color: white;
+}
+
+.treblocchi::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tresx {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin-right: 5%;
+  padding: 5%;
+}
+
+.trecentro {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin-right: 5%;
+  padding: 5%;
+
+.tredx {
+  width: 30%;
+  height: 100%;
+  float: left;
+  padding: 5%;
+
 }
