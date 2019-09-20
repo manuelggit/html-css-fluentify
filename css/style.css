@@ -5,14 +5,26 @@
   box-sizing: border-box;
 }
 
-.container {
+/* .container {
   margin: 0 10%;
   font-family: 'Nunito', sans-serif;
   position: relative;
-}
+} */
 
 body {
   background: #0d325a;
+  font-family: 'Nunito', sans-serif;
+}
+
+header {
+  margin: 0 10%;
+  height: 70vh;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 nav::after {
@@ -85,13 +97,40 @@ li .fakebuttonlog {
   display: inline-block;
   float: right;
   width: 50%;
-}
-
-.granderiga {
-  width: 100%;
-  background: red;
+  background-image: url();
 }
 
 h1 {
   padding: 10% 0;
+}
+
+/* SECTION */
+
+section {
+  /* background: white; */
+  width: 100%;
+  height: 30vh;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  color: #818a91;
+}
+
+.granderiga {
+  float: left;
+  height: 100px;
+  width: 100%;
+  background:#f9f9f9;
+  text-align: center;
+}
+
+section.section2 {
+  background: white;
+  height: 70vh;
 }
